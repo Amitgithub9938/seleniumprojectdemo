@@ -16,6 +16,8 @@ public class Amazon {
 		driver.findElement(By.xpath("//input[@id='nav-search-submit-button']")).click();
       Thread.sleep(2000);
       driver.findElement(By.xpath("//span[@class='a-size-medium a-color-base a-text-normal'])[2]")).click();
+      
+     System.out.println("karan has been updated this code");
 
 	}
 
